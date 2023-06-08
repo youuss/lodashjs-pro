@@ -1,0 +1,33 @@
+{
+  "name": "lodashjs-pro",
+  "version": "1.0.0",
+  "description": "lodash pro",
+  "packageManager": "pnpm@8.6.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "web-types.json"
+  ],
+  "keywords": [
+    "lodash-pro"
+  ],
+  "author": "youus <https://github.com/youuss>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youuss/lodashjs-pro.git"
+  },
+  "dependencies": {
+    "@types/lodash-es": "^4.17.7",
+    "lodash-es": "^4.17.21",
+    "vitest": "^0.32.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "rollup": "^3.24.0",
+    "typescript": "^5.1.3"
+  }
+}
