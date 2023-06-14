@@ -21,5 +21,6 @@
     "noImplicitReturns": false,
     "noImplicitThis": false
   },
+  "include": ["lib/**/*", "rollup.config.ts"],
   "exclude": ["node_modules", "dist"]
 }

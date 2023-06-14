@@ -4,8 +4,9 @@
   "description": "lodash pro",
   "packageManager": "pnpm@8.6.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
   },
+  "type": "module",
   "files": [
     "dist",
     "lib",
@@ -26,8 +27,10 @@
     "vitest": "^0.32.0"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@youus/eslint-config": "^1.0.2",
     "eslint": "^8.42.0",
-    "rollup": "^3.24.0",
+    "rollup": "^3.25.1",
     "typescript": "^5.1.3"
   }
 }

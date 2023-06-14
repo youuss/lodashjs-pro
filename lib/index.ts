@@ -75,3 +75,5 @@ THE SOFTWARE.
  */
 
 export * from 'lodash-es'
+
+export const a = (msg: any) => console.log(msg)
